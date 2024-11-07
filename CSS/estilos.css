@@ -8,20 +8,21 @@ body, html {
 
 /* css header Navbar principal */
 .promo-banner {
-    background-color:#4180ab;  /* Color de fondo (puedes cambiarlo) */
-    color: white;               /* Color de texto */
-    padding: 5px 0;             /* Espacio vertical para que sea delgado */
-    text-align: center;         /* Texto centrado */
-    font-size: 14px;            /* Tamaño de fuente pequeño */
-    font-weight: bold;          /* Negrita para destacar */
-    position: relative;            /* Fijo en la parte superior de la página */
+    background-color: #4180ab;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
 }
 
+
 .navbar {
-    top: 0;
+    top: 30px;
     height: 70px;
     width: 100%;
     display: flex;
@@ -88,7 +89,7 @@ main{
 .Colleccion{
     background-color: black;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 120px;
     padding-left: 20px;
     font-size: larger;
     color: white;
@@ -127,16 +128,16 @@ main{
 }
 .carousel-container {
     padding-top: 50px;
-    max-width: 800px; /* Ancho máximo del carrusel */
-    margin: 0 auto; /* Centra el carrusel */
-    overflow: hidden; /* Oculta cualquier desbordamiento */
+    max-width: 800px; 
+    margin: 0 auto; 
+    overflow: hidden; 
     padding-bottom: 50px;
 }
 
 .carousel-inner img {
-    max-height: 800px; /* Altura máxima de las imágenes */
-    object-fit: cover; /* Ajusta la imagen para que no se deforme */
-    width: 100%; /* Asegura que las imágenes ocupen todo el ancho del carrusel */
+    max-height: 800px; 
+    object-fit: cover; 
+    width: 100%; 
 }
 
 
@@ -159,7 +160,7 @@ footer {
 }
 
 .footer-section {
-    flex: 1 1 200px; /* Se adapta al tamaño de la pantalla */
+    flex: 1 1 200px;
     margin: 10px;
 }
 
@@ -169,7 +170,7 @@ footer {
 }
 
 .footer-section a {
-    color: #ff9800; /* Color de enlaces */
+    color: #ff9800; 
     text-decoration: none;
     display: block;
     margin: 5px 0;
@@ -275,14 +276,13 @@ footer {
         padding: 10px;
     }
 
-    /* Producto: Reduce el tamaño de cada tarjeta */
     .producto {
-        width: 100%;  /* Se ajusta al ancho de la pantalla */
+        width: 100%;  
         padding: 8px;
     }
 
     .producto img {
-        height: 200px; /* Tamaño más pequeño para dispositivos móviles */
+        height: 200px; 
     }
 
     .producto .nombre, .producto .precio {
