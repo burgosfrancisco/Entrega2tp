@@ -83,13 +83,13 @@ body, html {
 
 /* css del main*/
 main{
+    padding-top: 120px;
     background-color: rgb(0, 0, 0);
     
 }
 .Colleccion{
     background-color: black;
     text-align: left;
-    padding-top: 120px;
     padding-left: 20px;
     font-size: larger;
     color: white;
@@ -297,7 +297,9 @@ footer {
 
 /* CSS PAGINA HOMBRE */
 /* CSS para el contenedor principal de los productos */
+
 .productos-hombre {
+    padding-top: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
